@@ -6,13 +6,12 @@
 /*   By: niverdie <niverdie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/25 16:54:33 by niverdie          #+#    #+#             */
-/*   Updated: 2025/11/30 17:13:01 by niverdie         ###   ########.fr       */
+/*   Updated: 2025/11/30 17:47:17 by niverdie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 #include <stdarg.h>
-#include <unistd.h>
 
 int	process_arg(char c, int *count, va_list args)
 {

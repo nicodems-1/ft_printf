@@ -6,13 +6,12 @@
 /*   By: niverdie <niverdie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/25 17:01:06 by niverdie          #+#    #+#             */
-/*   Updated: 2025/11/30 17:09:17 by niverdie         ###   ########.fr       */
+/*   Updated: 2025/11/30 17:46:56 by niverdie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 #include <stdint.h>
-#include <stdio.h>
 #include <unistd.h>
 
 int	ft_strlen(char *str)
